@@ -973,96 +973,6 @@
       \verb http://www.nature.com/articles/361156a0
       \endverb
     \endentry
-    \entry{Crowley2008}{article}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=bc27be9ae395b65c523c1bb53ae9741f}{%
-           family={Crowley},
-           familyi={C\bibinitperiod},
-           given={Patrick\bibnamedelima J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4572173d62159ca1b3b3b54cdeec2855}{%
-           family={Berry},
-           familyi={B\bibinitperiod},
-           given={Edward\bibnamedelima A.},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3e3f820322a893ebb3ad3f322fb0e9dd}{%
-           family={Cromartie},
-           familyi={C\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3db4bd71261f4d5708af646a89262c8c}{%
-           family={Daldal},
-           familyi={D\bibinitperiod},
-           given={Fevzi},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=577c2313689660774f6aff28efd5c55e}{%
-           family={Godfrey},
-           familyi={G\bibinitperiod},
-           given={Christopher\bibnamedelima R.A.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=36146db211b630454cb446f0412aa4b4}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Dong-Woo},
-           giveni={D\bibinithyphendelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fdbaa6bc06075879d584c1f11836d28f}{%
-           family={Phillips},
-           familyi={P\bibinitperiod},
-           given={Janet\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9fe5a2f24d142bd84891dc9bda5d38a}{%
-           family={Taylor},
-           familyi={T\bibinitperiod},
-           given={Anne},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b6e237578af2d19ac93194f1a89305bc}{%
-           family={Viner},
-           familyi={V\bibinitperiod},
-           given={Russell},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3bf14441f47c9a0cdbae5414021cfe3e}
-      \strng{fullhash}{070d5022d0fade9c602c9ea62c215f4e}
-      \strng{bibnamehash}{3bf14441f47c9a0cdbae5414021cfe3e}
-      \strng{authorbibnamehash}{3bf14441f47c9a0cdbae5414021cfe3e}
-      \strng{authornamehash}{3bf14441f47c9a0cdbae5414021cfe3e}
-      \strng{authorfullhash}{070d5022d0fade9c602c9ea62c215f4e}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{09680896}
-      \field{journaltitle}{Bioorganic \& Medicinal Chemistry}
-      \field{month}{12}
-      \field{title}{{The role of molecular modeling in the design of analogues of the fungicidal natural products crocacins A and D}}
-      \field{year}{2008}
-      \field{number}{24}
-      \range{number}{1}
-      \field{pages}{10345\bibrangedash 10355}
-      \range{pages}{11}
-      \field{volume}{16}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1016/j.bmc.2008.10.030
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0968089608009826
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0968089608009826
-      \endverb
-    \endentry
     \entry{DaSilva2009}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=41422f82a79af08ba4f97367ec581b09}{%
@@ -1399,6 +1309,34 @@
       \endverb
       \verb{url}
       \verb https://frontiersinzoology.biomedcentral.com/articles/10.1186/s12983-020-00356-y
+      \endverb
+    \endentry
+    \entry{Fang2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d7d087e4e635ddcf99d5a77a12acdf92}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d7d087e4e635ddcf99d5a77a12acdf92}
+      \strng{fullhash}{d7d087e4e635ddcf99d5a77a12acdf92}
+      \strng{bibnamehash}{d7d087e4e635ddcf99d5a77a12acdf92}
+      \strng{authorbibnamehash}{d7d087e4e635ddcf99d5a77a12acdf92}
+      \strng{authornamehash}{d7d087e4e635ddcf99d5a77a12acdf92}
+      \strng{authorfullhash}{d7d087e4e635ddcf99d5a77a12acdf92}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PhD thesis}
+      \field{title}{{Convergent and divergent adaptations of subterranean rodents}}
+      \field{year}{2015}
+      \verb{file}
+      \verb :C\:/Users/institute/Desktop/BIOINF Оля/SCIENCE/ВКР/fda9a78196a90132171cf7ea4a505c2fbd85.pdf:pdf
       \endverb
     \endentry
     \entry{Gambaryan1957}{article}{}
@@ -1889,72 +1827,6 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msw046
-      \endverb
-    \endentry
-    \entry{Hunte2000}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=147f3ce9a2f3a1e13052a487ceeea2f6}{%
-           family={Hunte},
-           familyi={H\bibinitperiod},
-           given={Carola},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b3b20be8c53f47b1f5787fa24dafa84}{%
-           family={Koepke},
-           familyi={K\bibinitperiod},
-           given={Juergen},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0ea3e1e5ad9956842fda4d832dead54}{%
-           family={Lange},
-           familyi={L\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=36d88292513280eadab96a9489473530}{%
-           family={Ro{ß}manith},
-           familyi={R\bibinitperiod},
-           given={Tanja},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=64b31a537509f887e6991ce1e6955272}{%
-           family={Michel},
-           familyi={M\bibinitperiod},
-           given={Hartmut},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{21ff8c913006e000d9db078734e3eefb}
-      \strng{fullhash}{d51ff5ef5f4ebf2e57d1e6b950ce5265}
-      \strng{bibnamehash}{21ff8c913006e000d9db078734e3eefb}
-      \strng{authorbibnamehash}{21ff8c913006e000d9db078734e3eefb}
-      \strng{authornamehash}{21ff8c913006e000d9db078734e3eefb}
-      \strng{authorfullhash}{d51ff5ef5f4ebf2e57d1e6b950ce5265}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{09692126}
-      \field{journaltitle}{Structure}
-      \field{month}{6}
-      \field{title}{{Structure at 2.3 {Å} resolution of the cytochrome bc1 complex from the yeast Saccharomyces cerevisiae co-crystallized with an antibody Fv fragment}}
-      \field{year}{2000}
-      \field{number}{6}
-      \range{number}{1}
-      \field{pages}{669\bibrangedash 684}
-      \range{pages}{16}
-      \field{volume}{8}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1016/S0969-2126(00)00152-0
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0969212600001520
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0969212600001520
       \endverb
     \endentry
     \entry{Jaikumar2020}{article}{}
@@ -2651,93 +2523,6 @@
       \verb https://academic.oup.com/mbe/article-lookup/doi/10.1093/oxfordjournals.molbev.a025763
       \endverb
     \endentry
-    \entry{Luo2008}{article}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=d57aab73a244228f993c4273f84c025e}{%
-           family={Luo},
-           familyi={L\bibinitperiod},
-           given={Yongjun},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=56e4f945ec378bbfe8425f93153b3350}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Wenxiang},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=900c5e4429126c6a5214774da9f795b3}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Yuqi},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae0f6b08a891eabc0f3f68ed8bb962af}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Sha},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=27adf872d6cbb5370c566f7212de6c81}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Qingyuan},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0f363b8726401bb9e96e63c8bf608c8d}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={Xiaoling},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=383ef476f431eaf108d4a77c75c2def5}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=782875156aab98bb695d0197fd00e736}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Taosheng},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8c595fc154540b8976e7204579e13bc8}
-      \strng{fullhash}{356e13203fc22882f8e50ba420d2bc1f}
-      \strng{bibnamehash}{8c595fc154540b8976e7204579e13bc8}
-      \strng{authorbibnamehash}{8c595fc154540b8976e7204579e13bc8}
-      \strng{authornamehash}{8c595fc154540b8976e7204579e13bc8}
-      \strng{authorfullhash}{356e13203fc22882f8e50ba420d2bc1f}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{15677249}
-      \field{journaltitle}{Mitochondrion}
-      \field{month}{12}
-      \field{title}{{Mitochondrial genome analysis of Ochotona curzoniae and implication of cytochrome c oxidase in hypoxic adaptation}}
-      \field{year}{2008}
-      \field{number}{5\bibrangedash 6}
-      \range{number}{2}
-      \field{pages}{352\bibrangedash 357}
-      \range{pages}{6}
-      \field{volume}{8}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1016/j.mito.2008.07.005
-      \endverb
-      \verb{file}
-      \verb :C\:/Users/institute/Desktop/BIOINF Оля/SCIENCE/CytB/Papers/to add Mendeley/luo2008.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S1567724908000603
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S1567724908000603
-      \endverb
-    \endentry
     \entry{McClellan2001}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c870efe8065c3bdc285c44bcec64382b}{%
@@ -2962,31 +2747,6 @@
       \verb{url}
       \verb http://www.mdpi.com/2073-4425/8/10/262
       \endverb
-    \endentry
-    \entry{Nevo1999}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0bdd75e00218210f375ba8a59f7b3d3e}{%
-           family={Nevo},
-           familyi={N\bibinitperiod},
-           given={Eviatar},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0bdd75e00218210f375ba8a59f7b3d3e}
-      \strng{fullhash}{0bdd75e00218210f375ba8a59f7b3d3e}
-      \strng{bibnamehash}{0bdd75e00218210f375ba8a59f7b3d3e}
-      \strng{authorbibnamehash}{0bdd75e00218210f375ba8a59f7b3d3e}
-      \strng{authornamehash}{0bdd75e00218210f375ba8a59f7b3d3e}
-      \strng{authorfullhash}{0bdd75e00218210f375ba8a59f7b3d3e}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Oxford University Press.}
-      \field{title}{{Mosaic evolution of subterranean mammals: regression, progression, and global convergence.}}
-      \field{year}{1999}
     \endentry
     \entry{Pohjoismaki2012}{article}{}
       \name{author}{6}{}{%

@@ -33,6 +33,28 @@
 \bibliographystyle{utf8gost705u} % Оформляем библиографию в соответствии с ГОСТ 7.0.5
 \renewcommand{\@biblabel}[1]{#1.} % Заменяем библиографию с квадратных скобок на точку:
 \makeatother
+\nohyphenation
+
+\renewbibmacro*{name:andothers}{%
+	\ifboolexpr{
+		test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+		and
+		test \ifmorenames
+	}
+	{\ifnumgreater{\value{liststop}}{1}
+		{\finalandcomma}
+		{}%
+		\andothersdelim\bibstring{andothers}}
+	%here should be some code to stop 
+	{}}
+
+%\DefineBibliographyStrings{english}{%
+%  andothers = \bibstring{andothers},
+%}
+
+\DefineBibliographyStrings{english}{%
+	andothers = {\em et\addabbrvspace al\adddot}
+}
 
 %%% Изображения %%%
 \graphicspath{{images/}} % Пути к изображениям
