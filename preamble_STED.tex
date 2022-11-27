@@ -1,0 +1,157 @@
+%%% Поля и разметка страницы %%%
+\usepackage{lscape} % Для включения альбомных страниц
+\usepackage{geometry} % Для последующего задания полей
+\usepackage{float}
+
+%%% Кодировки и шрифты %%%
+\usepackage{cmap} % Улучшенный поиск русских слов в полученном pdf-файле
+\usepackage[T2A]{fontenc} % Поддержка русских букв
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc} % Кодировка utf8
+\usepackage[english, russian]{babel} % Языки: русский, английский
+%\usepackage{pscyr} % Нормальные шрифты
+
+\usepackage{extsizes} % Возможность сделать 14-й шрифт
+%\usepackage{anyfontsize}
+
+%%% Математические пакеты %%%
+\usepackage{amsthm,amsfonts,amsmath,amssymb,amscd} % Математические дополнения от AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%%% Оформление абзацев %%%
+\usepackage{indentfirst} % Красная строка
+
+%%% Цвета %%%
+\usepackage[usenames]{color}
+\usepackage{color}
+\usepackage{colortbl}
+
+%%% Таблицы %%%
+\usepackage{longtable} % Длинные таблицы
+\usepackage{multirow,makecell,array} % Улучшенное форматирование таблиц
+
+%%% Общее форматирование
+%\usepackage[singlelinecheck=off,center]{caption} % Многострочные подписи
+\usepackage{caption2}%форматирование подписей к плавающим объектам
+\renewcommand{\captionlabeldelim}{.}% после названия объекта ставим точку.
+\usepackage{soul} % Поддержка переносоустойчивых подчёркиваний и зачёркиваний
+
+%%% Библиография %%%
+%\usepackage{cite}
+
+%%% Гиперссылки %%%
+%\usepackage[plainpages=false,pdfpagelabels=false]{hyperref}
+\usepackage[linktocpage=true,plainpages=false,pdfpagelabels=false]{hyperref}
+
+%%% Изображения %%%
+\usepackage{graphicx} % Подключаем пакет работы с графикой
+
+%%% Опционально %%%
+% следующий пакет может быть полезен, если надо ужать текст, чтобы сам текст не править, но чтобы места он занимал поменьше
+\usepackage{savetrees}        
+
+% этот пакет может быть полезен для печати текста брошюрой, сама с ним не разбиралась
+%\usepackage[print]{booklet}
+
+\newcommand{\R}{R} %Rlogo
+
+\usepackage{wasysym}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Макет страницы %%%
+
+
+%\geometry{top=1.5cm,bottom=1.5cm,left=1.5cm,right=1cm}
+\geometry{top=1.5cm,bottom=1.5cm,left=2cm,right=1.5cm}
+%\oddsidemargin=-13pt
+%\topmargin=-66pt
+%\headheight=12pt
+%\headsep=38pt
+%\textheight=732pt
+%\textwidth=484pt
+%\marginparsep=14pt
+%\marginparwidth=43pt
+%\footskip=14pt
+%\marginparpush=7pt
+%\hoffset=0pt
+%\voffset=0pt
+%\paperwidth=597pt
+%\paperheight=845pt
+\parindent=1cm %размер табуляции (для красной строки) в начале каждого абзаца
+\renewcommand{\baselinestretch}{1.25}
+%\newfloat{scheme}{tb}{sch}
+
+%%% Общая информация %%%
+\author{Назарова С.А.} % Фамилия И.О. автора
+
+%%% Кодировки и шрифты %%%
+%\renewcommand{\rmdefault}{ftm} % Включаем Times New Roman
+
+%%% Выравнивание и переносы %%%
+\sloppy
+\clubpenalty=10000
+\widowpenalty=10000
+
+
+%%% Изображения %%%
+\graphicspath{{images/}} % Пути к изображениям
+
+%%% Цвета гиперссылок %%%
+\definecolor{linkcolor}{rgb}{0,0,0}
+\definecolor{citecolor}{rgb}{0,0,0}
+\definecolor{urlcolor}{rgb}{0,0,0}
+\hypersetup{
+    colorlinks, linkcolor={linkcolor},
+    citecolor={citecolor}, urlcolor={urlcolor}
+}
+
+%%% Библиография %%%
+%\makeatletter
+%\bibliographystyle{utf8gost705u} % Оформляем библиографию в соответствии с ГОСТ 7.0.5
+%\renewcommand{\@biblabel}[1]{#1.} % Заменяем библиографию с квадратных скобок на точку:
+%\makeatother
+
+%%%%% modification 2022-05-15
+%% Библиография
+\usepackage[%
+backend=biber,% движок
+bibencoding=utf8,% кодировка bib файла
+%sorting=none,% настройка сортировки списка литературы
+%style=gost-authoryear,% стиль цитирования и библиографии (по ГОСТ)
+style=gost-authoryear,
+%maxitemnames=3,maxbibnames=12, %doesn't work
+sorting=lnyt,% настройка сортировки списка литературы % %doesn't work!
+maxnames=1,
+maxcitenames=2, %?
+minnames=1, %это число имён в цитате внутри текста
+uniquelist=false, %даже если первый автор один и тот же, сокращать до первого
+maxbibnames=10,
+movenames=false,ibidtracker=false, %koupriyanov
+language=auto,% получение языка из babel/polyglossia, default: autobib % если ставить autocite или auto, то цитаты в тексте с указанием страницы, получат указание страницы на языке оригинала
+autolang=other,% многоязычная библиография
+%clearlang=true,% внутренний сброс поля language, если он совпадает с языком из babel/polyglossia
+%defernumbers=true,% нумерация проставляется после двух компиляций, зато позволяет выцеплять библиографию по ключевым словам и нумеровать не из большего списка
+sortcites=false,
+%sortcites=true,% сортировать номера затекстовых ссылок при цитировании (если в квадратных скобках несколько ссылок, то отображаться будут отсортированно, а не абы как)
+doi=false,% Показывать или нет ссылки на DOI
+isbn=false,% Показывать или нет ISBN
+useauthor=true, %that's it! Если не ставить эту опцию, то во многих случаях будет использовано название вместо первого автора
+%babel=hyphen,  %no-no! You would have 'и др.' for english papers
+%babel=other,
+firstinits=true, 
+uniquename=false,
+]{biblatex}
+
+\usepackage{totcount}
+\usepackage{ifthen}
+\newcounter{bibliosel}
+\setcounter{bibliosel}{1}           % 0 --- встроенная реализация с загрузкой файла через движок bibtex8; 1 --- реализация пакетом biblatex через движок biber
+
+%%% Выбор реализации %%%
+\ifthenelse{\equal{\thebibliosel}{0}}{%
+	\input{biblio/predefined}  % Встроенная реализация с загрузкой файла через движок bibtex8
+}{
+	\input{biblatex}    % Реализация пакетом biblatex через движок bibers
+	
+}

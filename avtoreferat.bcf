@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nyt</bcf:value>
+      <bcf:value>lnyt</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -171,11 +171,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>init</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -341,15 +341,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -405,11 +405,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>init</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -575,15 +575,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -639,11 +639,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>init</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -809,15 +809,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -873,11 +873,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>init</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -1043,15 +1043,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -1107,11 +1107,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>true</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>init</bcf:value>
+      <bcf:value>false</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -1634,6 +1634,34 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
+    <bcf:maps datatype="bibtex" level="user">
+      <bcf:map>
+        <bcf:map_step map_field_source="language" map_field_set="langid" map_origfieldval="1" map_final="1"/>
+        <bcf:map_step map_field_set="language" map_null="1"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="numpages" map_field_set="pagetotal" map_origfieldval="1" map_final="1"/>
+        <bcf:map_step map_field_set="pagestotal" map_null="1"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="medium" map_match="Электронный\s+ресурс" map_final="1"/>
+        <bcf:map_step map_field_set="media" map_field_value="eresource"/>
+      </bcf:map>
+      <bcf:map map_overwrite="1">
+        <bcf:map_step map_field_set="issn" map_null="1"/>
+      </bcf:map>
+      <bcf:map map_overwrite="1">
+        <bcf:map_step map_field_source="abstract"/>
+        <bcf:map_step map_field_set="abstract" map_null="1"/>
+      </bcf:map>
+      <bcf:map map_overwrite="1">
+        <bcf:map_step map_field_source="urldate" map_match="([0-9]{2})\.([0-9]{2})\.([0-9]{4})" map_replace="$3-$2-$1$4" map_final="1"/>
+      </bcf:map>
+      <bcf:map map_overwrite="1">
+        <bcf:per_datasource>othercites.bib</bcf:per_datasource>
+        <bcf:map_step map_field_set="keywords" map_field_value="bibliofull"/>
+      </bcf:map>
+    </bcf:maps>
     <bcf:maps datatype="bibtex" level="style">
       <bcf:map>
         <bcf:map_step map_type_source="candthesis" map_type_target="thesis" map_final="1"/>
@@ -3464,6 +3492,7 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex" glob="false">othercites.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">othercites.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Fang2015</bcf:citekey>
@@ -3486,11 +3515,11 @@
     <bcf:citekey order="18">Buchfink2015</bcf:citekey>
     <bcf:citekey order="19">Lechner2011</bcf:citekey>
     <bcf:citekey order="20">RCoreTeam2017</bcf:citekey>
-    <bcf:citekey order="21">Arabi2010</bcf:citekey>
-    <bcf:citekey order="22">Hassanin2005</bcf:citekey>
-    <bcf:citekey order="23">Cock2009</bcf:citekey>
-    <bcf:citekey order="24">Darling2004</bcf:citekey>
-    <bcf:citekey order="25">Katoh2014</bcf:citekey>
+    <bcf:citekey order="21">Darling2004</bcf:citekey>
+    <bcf:citekey order="22">Katoh2014</bcf:citekey>
+    <bcf:citekey order="23">Arabi2010</bcf:citekey>
+    <bcf:citekey order="24">Hassanin2005</bcf:citekey>
+    <bcf:citekey order="25">Cock2009</bcf:citekey>
     <bcf:citekey order="26">Jobb2004</bcf:citekey>
     <bcf:citekey order="27">Ronquist2012</bcf:citekey>
     <bcf:citekey order="28">Rambaut2014</bcf:citekey>
@@ -3512,99 +3541,79 @@
     <bcf:citekey order="44">DaSilva2009</bcf:citekey>
     <bcf:citekey order="45">DiRocco2006</bcf:citekey>
     <bcf:citekey order="46">Shao2015</bcf:citekey>
-    <bcf:citekey order="47">Tomasco2011</bcf:citekey>
-    <bcf:citekey order="48">Shen2010</bcf:citekey>
-    <bcf:citekey order="49">Blier2001</bcf:citekey>
-    <bcf:citekey order="50">DaSilva2009</bcf:citekey>
-    <bcf:citekey order="51">Tomasco2011</bcf:citekey>
-    <bcf:citekey order="52">DaSilva2009</bcf:citekey>
-    <bcf:citekey order="53">Tomasco2014</bcf:citekey>
-    <bcf:citekey order="54">Zhang2013a</bcf:citekey>
-    <bcf:citekey order="55">Tomasco2011</bcf:citekey>
-    <bcf:citekey order="56">Tomasco2011</bcf:citekey>
-    <bcf:citekey order="57">Tavares2018</bcf:citekey>
-    <bcf:citekey order="58">Lopez1997</bcf:citekey>
-    <bcf:citekey order="59">Bondareva2021</bcf:citekey>
-    <bcf:citekey order="60">Lin2004</bcf:citekey>
-    <bcf:citekey order="61">Davies2018</bcf:citekey>
-    <bcf:citekey order="62">Davies2018</bcf:citekey>
-    <bcf:citekey order="63">Zhou2015</bcf:citekey>
-    <bcf:citekey order="64">Sackman2017</bcf:citekey>
-    <bcf:citekey order="65">Cooper1993</bcf:citekey>
-    <bcf:citekey order="66">Davies2018</bcf:citekey>
-    <bcf:citekey order="67">Turrens2003</bcf:citekey>
-    <bcf:citekey order="68">Pohjoismaki2012</bcf:citekey>
-    <bcf:citekey order="69">Kuo2015</bcf:citekey>
-    <bcf:citekey order="70">Zhang2013b</bcf:citekey>
-    <bcf:citekey order="71">Jaikumar2020</bcf:citekey>
-    <bcf:citekey order="72">Lacey2000</bcf:citekey>
-    <bcf:citekey order="73">Gromov1977</bcf:citekey>
-    <bcf:citekey order="74">Lacey2000</bcf:citekey>
-    <bcf:citekey order="75">Ognev1950</bcf:citekey>
-    <bcf:citekey order="76">Gromov1977</bcf:citekey>
-    <bcf:citekey order="77">Shubin1978</bcf:citekey>
-    <bcf:citekey order="78">Lacey2000</bcf:citekey>
-    <bcf:citekey order="79">Vereshchagin1959</bcf:citekey>
-    <bcf:citekey order="80">Vorontsov1966</bcf:citekey>
-    <bcf:citekey order="81">Krystufek2005</bcf:citekey>
-    <bcf:citekey order="82">Vorontsov1966</bcf:citekey>
-    <bcf:citekey order="83">Gambaryan1957</bcf:citekey>
-    <bcf:citekey order="84">Zimina1977</bcf:citekey>
-    <bcf:citekey order="85">Sun2018</bcf:citekey>
-    <bcf:citekey order="86">Dong2020</bcf:citekey>
-    <bcf:citekey order="87">Smorkatcheva1990</bcf:citekey>
-    <bcf:citekey order="88">Hong2019</bcf:citekey>
-    <bcf:citekey order="89">Aulagnier2018</bcf:citekey>
-    <bcf:citekey order="90">Aulagnier2018</bcf:citekey>
-    <bcf:citekey order="91">Mironov2020</bcf:citekey>
-    <bcf:citekey order="92">Mironov2020</bcf:citekey>
-    <bcf:citekey order="93">Caroli2000</bcf:citekey>
-    <bcf:citekey order="94">Jemiolo1983</bcf:citekey>
-    <bcf:citekey order="95">Schropfer1977</bcf:citekey>
-    <bcf:citekey order="96">Krystufek2005</bcf:citekey>
+    <bcf:citekey order="47">DaSilva2009</bcf:citekey>
+    <bcf:citekey order="48">Zhang2013a</bcf:citekey>
+    <bcf:citekey order="49">Tomasco2011</bcf:citekey>
+    <bcf:citekey order="50">Tavares2018</bcf:citekey>
+    <bcf:citekey order="51">Lopez1997</bcf:citekey>
+    <bcf:citekey order="52">Bondareva2021</bcf:citekey>
+    <bcf:citekey order="53">Lin2004</bcf:citekey>
+    <bcf:citekey order="54">Davies2018</bcf:citekey>
+    <bcf:citekey order="55">Zhou2015</bcf:citekey>
+    <bcf:citekey order="56">Sackman2017</bcf:citekey>
+    <bcf:citekey order="57">Davies2018</bcf:citekey>
+    <bcf:citekey order="58">Cooper1993</bcf:citekey>
+    <bcf:citekey order="59">Davies2018</bcf:citekey>
+    <bcf:citekey order="60">Turrens2003</bcf:citekey>
+    <bcf:citekey order="61">Pohjoismaki2012</bcf:citekey>
+    <bcf:citekey order="62">Kuo2015</bcf:citekey>
+    <bcf:citekey order="63">Zhang2013b</bcf:citekey>
+    <bcf:citekey order="64">Jaikumar2020</bcf:citekey>
+    <bcf:citekey order="65">Gromov1977</bcf:citekey>
+    <bcf:citekey order="66">Lacey2000</bcf:citekey>
+    <bcf:citekey order="67">Lacey2000</bcf:citekey>
+    <bcf:citekey order="68">Ognev1950</bcf:citekey>
+    <bcf:citekey order="69">Gromov1977</bcf:citekey>
+    <bcf:citekey order="70">Shubin1978</bcf:citekey>
+    <bcf:citekey order="71">Lacey2000</bcf:citekey>
+    <bcf:citekey order="72">Vereshchagin1959</bcf:citekey>
+    <bcf:citekey order="73">Vorontsov1966</bcf:citekey>
+    <bcf:citekey order="74">Krystufek2005</bcf:citekey>
+    <bcf:citekey order="75">Vorontsov1966</bcf:citekey>
+    <bcf:citekey order="76">Gambaryan1957</bcf:citekey>
+    <bcf:citekey order="77">Zimina1977</bcf:citekey>
+    <bcf:citekey order="78">Sun2018</bcf:citekey>
+    <bcf:citekey order="79">Dong2020</bcf:citekey>
+    <bcf:citekey order="80">Smorkatcheva1990</bcf:citekey>
+    <bcf:citekey order="81">Hong2019</bcf:citekey>
+    <bcf:citekey order="82">Aulagnier2018</bcf:citekey>
+    <bcf:citekey order="83">Aulagnier2018</bcf:citekey>
+    <bcf:citekey order="84">Mironov2020</bcf:citekey>
+    <bcf:citekey order="85">Mironov2020</bcf:citekey>
+    <bcf:citekey order="86">Caroli2000</bcf:citekey>
+    <bcf:citekey order="87">Jemiolo1983</bcf:citekey>
+    <bcf:citekey order="88">Schropfer1977</bcf:citekey>
+    <bcf:citekey order="89">Krystufek2005</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nyt">
+  <bcf:sortingtemplate name="lnyt">
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="2" final="1">
       <bcf:sortitem order="1">sortkey</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">heading</bcf:sortitem>
-      <bcf:sortitem order="2">sortname</bcf:sortitem>
-      <bcf:sortitem order="3">author</bcf:sortitem>
-      <bcf:sortitem order="4">editor</bcf:sortitem>
-      <bcf:sortitem order="5">translator</bcf:sortitem>
-      <bcf:sortitem order="6">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="7">maintitle</bcf:sortitem>
-      <bcf:sortitem order="8">title</bcf:sortitem>
+    <bcf:sort order="3" sort_direction="descending">
+      <bcf:sortitem order="1">langid</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="4">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
       <bcf:sortitem order="1">sortyear</bcf:sortitem>
       <bcf:sortitem order="2">year</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">maintitle</bcf:sortitem>
-      <bcf:sortitem order="3">title</bcf:sortitem>
-    </bcf:sort>
     <bcf:sort order="6">
-      <bcf:sortitem order="1">sortvolume</bcf:sortitem>
-      <bcf:sortitem order="2" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="3">0000</bcf:sortitem>
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
     </bcf:sort>
     <bcf:sort order="7">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">book</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="8">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">part</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0000</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="9">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">issue</bcf:sortitem>
+      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
       <bcf:sortitem literal="1" order="2">0000</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>

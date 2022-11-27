@@ -1,48 +1,159 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: avtoreferat.aux
-I found no \citation commands---while reading file avtoreferat.aux
-I found no \bibdata command---while reading file avtoreferat.aux
-I found no \bibstyle command---while reading file avtoreferat.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 496 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
-quote$ -- 0
-skip$ -- 0
-stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'avtoreferat.blg'
+[116] biber-MSWIN32:330> INFO - === 
+[142] Biber.pm:415> INFO - Reading 'avtoreferat.bcf'
+[346] Biber.pm:952> INFO - Found 78 citekeys in bib section 0
+[369] Biber.pm:4334> INFO - Processing section 0
+[386] Biber.pm:4523> INFO - Looking for bibtex format file 'othercites.bib' for section 0
+[417] bibtex.pm:1682> INFO - LaTeX decoding ...
+[940] bibtex.pm:1494> INFO - Found BibTeX data source 'othercites.bib'
+[951] Utils.pm:395> WARN - Duplicate entry key: 'Arieli1979' in file 'othercites.bib', skipping ...
+[952] Utils.pm:395> WARN - Duplicate entry key: 'Avivi1999' in file 'othercites.bib', skipping ...
+[952] Utils.pm:395> WARN - Duplicate entry key: 'Begall2007' in file 'othercites.bib', skipping ...
+[953] Utils.pm:395> WARN - Duplicate entry key: 'Brodsky2005' in file 'othercites.bib', skipping ...
+[953] Utils.pm:395> WARN - Duplicate entry key: 'Cooper1993' in file 'othercites.bib', skipping ...
+[954] Utils.pm:395> WARN - Duplicate entry key: 'Darwin1872' in file 'othercites.bib', skipping ...
+[955] Utils.pm:395> WARN - Duplicate entry key: 'Fang2015' in file 'othercites.bib', skipping ...
+[955] Utils.pm:395> WARN - Duplicate entry key: 'Gurnett1984' in file 'othercites.bib', skipping ...
+[958] Utils.pm:395> WARN - Duplicate entry key: 'KLEINSCHMIDT1984' in file 'othercites.bib', skipping ...
+[958] Utils.pm:395> WARN - Duplicate entry key: 'Lacey2000' in file 'othercites.bib', skipping ...
+[960] Utils.pm:395> WARN - Duplicate entry key: 'McNab1966' in file 'othercites.bib', skipping ...
+[960] Utils.pm:395> WARN - Duplicate entry key: 'McNab1980' in file 'othercites.bib', skipping ...
+[961] Utils.pm:395> WARN - Duplicate entry key: 'McNab1979' in file 'othercites.bib', skipping ...
+[961] Utils.pm:395> WARN - Duplicate entry key: 'Nevo1990' in file 'othercites.bib', skipping ...
+[962] Utils.pm:395> WARN - Duplicate entry key: 'Nevo1999' in file 'othercites.bib', skipping ...
+[963] Utils.pm:395> WARN - Duplicate entry key: 'Shams2005' in file 'othercites.bib', skipping ...
+[965] Utils.pm:395> WARN - Duplicate entry key: 'Shams2005a' in file 'othercites.bib', skipping ...
+[966] Utils.pm:395> WARN - Duplicate entry key: 'Vleck1979' in file 'othercites.bib', skipping ...
+[967] Utils.pm:395> WARN - Duplicate entry key: 'White2003' in file 'othercites.bib', skipping ...
+[970] Utils.pm:395> WARN - Duplicate entry key: 'Zhang2013a' in file 'othercites.bib', skipping ...
+[1006] Utils.pm:395> WARN - month field 'mar' in entry 'Sun2020' is not an integer - this will probably not sort properly.
+[1017] Utils.pm:395> WARN - month field 'apr' in entry 'Sun2018a' is not an integer - this will probably not sort properly.
+[1036] Utils.pm:395> WARN - month field 'dec' in entry 'Dong2020' is not an integer - this will probably not sort properly.
+[1048] Utils.pm:395> WARN - month field 'nov' in entry 'Miller1999' is not an integer - this will probably not sort properly.
+[1056] Utils.pm:395> WARN - month field 'nov' in entry 'Lebedev2007' is not an integer - this will probably not sort properly.
+[1066] Utils.pm:395> WARN - month field 'sep' in entry 'Ohdachi2001' is not an integer - this will probably not sort properly.
+[1077] Utils.pm:395> WARN - month field 'may' in entry 'Bannikova2013' is not an integer - this will probably not sort properly.
+[1085] Utils.pm:395> WARN - month field 'oct' in entry 'Abramson2009' is not an integer - this will probably not sort properly.
+[1095] Utils.pm:395> WARN - month field 'nov' in entry 'Petrova2016' is not an integer - this will probably not sort properly.
+[1110] Utils.pm:395> WARN - month field 'apr' in entry 'Poux2006' is not an integer - this will probably not sort properly.
+[1121] Utils.pm:395> WARN - month field 'aug' in entry 'Bolger2014' is not an integer - this will probably not sort properly.
+[1132] Utils.pm:395> WARN - month field 'jul' in entry 'Jonsson2013' is not an integer - this will probably not sort properly.
+[1155] Utils.pm:395> WARN - month field 'may' in entry 'Bankevich2012' is not an integer - this will probably not sort properly.
+[1170] Utils.pm:395> WARN - month field 'nov' in entry 'Bernt2013' is not an integer - this will probably not sort properly.
+[1199] Utils.pm:395> WARN - month field 'jul' in entry 'Grabherr2011' is not an integer - this will probably not sort properly.
+[1206] Utils.pm:395> WARN - month field 'jan' in entry 'Buchfink2015' is not an integer - this will probably not sort properly.
+[1216] Utils.pm:395> WARN - month field 'dec' in entry 'Lechner2011' is not an integer - this will probably not sort properly.
+[1225] Utils.pm:395> WARN - month field 'jun' in entry 'Darling2004' is not an integer - this will probably not sort properly.
+[1237] Utils.pm:395> WARN - month field 'may' in entry 'Arabi2010' is not an integer - this will probably not sort properly.
+[1247] Utils.pm:395> WARN - month field 'apr' in entry 'Hassanin2005' is not an integer - this will probably not sort properly.
+[1263] Utils.pm:395> WARN - month field 'jun' in entry 'Cock2009' is not an integer - this will probably not sort properly.
+[1286] Utils.pm:395> WARN - month field 'may' in entry 'Ronquist2012' is not an integer - this will probably not sort properly.
+[1296] Utils.pm:395> WARN - month field 'apr' in entry 'Castresana2000' is not an integer - this will probably not sort properly.
+[1300] Utils.pm:395> WARN - month field 'may' in entry 'Stamatakis2014' is not an integer - this will probably not sort properly.
+[1310] Utils.pm:395> WARN - month field 'mar' in entry 'Woolley2003' is not an integer - this will probably not sort properly.
+[1316] Utils.pm:395> WARN - month field 'jun' in entry 'McClellan2001' is not an integer - this will probably not sort properly.
+[1323] Utils.pm:395> WARN - month field 'jun' in entry 'Huerta-Cepas2016' is not an integer - this will probably not sort properly.
+[1333] Utils.pm:395> WARN - month field 'mar' in entry 'Wertheim2015' is not an integer - this will probably not sort properly.
+[1343] Utils.pm:395> WARN - month field 'may' in entry 'Smith2015' is not an integer - this will probably not sort properly.
+[1357] Utils.pm:395> WARN - month field 'aug' in entry 'Gao2003' is not an integer - this will probably not sort properly.
+[1363] Utils.pm:395> WARN - month field 'jun' in entry 'Webb2016' is not an integer - this will probably not sort properly.
+[1372] Utils.pm:395> WARN - month field 'jan' in entry 'Lomize2012' is not an integer - this will probably not sort properly.
+[1384] Utils.pm:395> WARN - month field 'jun' in entry 'Blom2004' is not an integer - this will probably not sort properly.
+[1401] Utils.pm:395> WARN - month field 'mar' in entry 'Xue2011' is not an integer - this will probably not sort properly.
+[1418] Utils.pm:395> WARN - month field 'oct' in entry 'Molto2017' is not an integer - this will probably not sort properly.
+[1426] Utils.pm:395> WARN - month field 'sep' in entry 'Andrews1998' is not an integer - this will probably not sort properly.
+[1432] Utils.pm:395> WARN - month field 'jan' in entry 'Tomasco2014' is not an integer - this will probably not sort properly.
+[1450] Utils.pm:395> WARN - month field 'dec' in entry 'DiRocco2006' is not an integer - this will probably not sort properly.
+[1463] Utils.pm:395> WARN - month field 'dec' in entry 'Shao2015' is not an integer - this will probably not sort properly.
+[1473] Utils.pm:395> WARN - month field 'mar' in entry 'Zhang2013a' is not an integer - this will probably not sort properly.
+[1479] Utils.pm:395> WARN - month field 'oct' in entry 'Tomasco2011' is not an integer - this will probably not sort properly.
+[1517] Utils.pm:395> WARN - month field 'mar' in entry 'Lopez1997' is not an integer - this will probably not sort properly.
+[1527] Utils.pm:395> WARN - month field 'dec' in entry 'Bondareva2021' is not an integer - this will probably not sort properly.
+[1534] Utils.pm:395> WARN - month field 'mar' in entry 'Lin2004' is not an integer - this will probably not sort properly.
+[1545] Utils.pm:395> WARN - month field 'oct' in entry 'Davies2018' is not an integer - this will probably not sort properly.
+[1572] Utils.pm:395> WARN - month field 'jan' in entry 'Cooper1993' is not an integer - this will probably not sort properly.
+[1671] Utils.pm:395> WARN - month field 'oct' in entry 'Sun2018' is not an integer - this will probably not sort properly.
+[1689] Utils.pm:395> WARN - month field 'may' in entry 'Hong2019' is not an integer - this will probably not sort properly.
+[1709] Utils.pm:395> WARN - month field 'mar' in entry 'Caroli2000' is not an integer - this will probably not sort properly.
+[1814] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1816] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1817] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1818] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1819] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1820] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1821] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1823] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1824] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1825] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1826] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1827] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1828] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1829] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1830] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1831] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1832] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1833] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1836] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1837] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1837] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1840] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1841] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1842] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1842] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1844] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1845] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1846] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1846] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1848] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1848] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1850] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1851] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1852] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1854] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1855] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1857] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1858] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1859] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1861] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1862] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1862] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1864] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1866] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1867] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1868] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1869] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1870] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1871] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1873] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1874] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1875] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1876] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1878] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1879] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1881] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1882] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1883] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1884] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1886] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1888] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1890] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1891] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1892] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1893] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1894] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1895] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1897] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1899] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1900] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1901] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1902] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1903] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1904] Utils.pm:395> WARN - Unknown field 'volume' found in sorting template
+[1911] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1912] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1912] Biber.pm:4162> INFO - Sorting list 'lnyt/global//global/global' of type 'entry' with template 'lnyt' and locale 'ru-RU'
+[1913] Biber.pm:4168> INFO - No sort tailoring available for locale 'ru-RU'
+[2064] bbl.pm:651> INFO - Writing 'avtoreferat.bbl' with encoding 'UTF-8'
+[2155] bbl.pm:754> INFO - Output to avtoreferat.bbl
+[2156] Biber.pm:128> INFO - WARNINGS: 143

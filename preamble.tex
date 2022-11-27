@@ -82,7 +82,7 @@
 %\newfloat{scheme}{tb}{sch}
 
 %%% Общая информация %%%
-\author{Назарова С.А.} % Фамилия И.О. автора
+\author{Бондарева О.В.} % Фамилия И.О. автора
 
 %%% Кодировки и шрифты %%%
 %\renewcommand{\rmdefault}{ftm} % Включаем Times New Roman
@@ -105,9 +105,52 @@
     citecolor={citecolor}, urlcolor={urlcolor}
 }
 
+
 %%% Библиография %%%
 %\makeatletter
 %\bibliographystyle{utf8gost705u} % Оформляем библиографию в соответствии с ГОСТ 7.0.5
 %\renewcommand{\@biblabel}[1]{#1.} % Заменяем библиографию с квадратных скобок на точку:
 %\makeatother
 
+%% Библиография
+%\usepackage[%
+%backend=biber,% движок
+%bibencoding=utf8,% кодировка bib файла
+%%sorting=none,% настройка сортировки списка литературы
+%%style=gost-authoryear,% стиль цитирования и библиографии (по ГОСТ)
+%style=gost-authoryear,
+%%maxitemnames=3,maxbibnames=12, %doesn't work
+%sorting=lnyt,% настройка сортировки списка литературы % %doesn't work!
+%maxnames=1,
+%maxcitenames=2, %?
+%minnames=1, %это число имён в цитате внутри текста
+%uniquelist=false, %даже если первый автор один и тот же, сокращать до первого
+%maxbibnames=10,
+%movenames=false,ibidtracker=false, %koupriyanov
+%language=auto,% получение языка из babel/polyglossia, default: autobib % если ставить autocite или auto, то цитаты в тексте с указанием страницы, получат указание страницы на языке оригинала
+%autolang=other,% многоязычная библиография
+%%clearlang=true,% внутренний сброс поля language, если он совпадает с языком из babel/polyglossia
+%%defernumbers=true,% нумерация проставляется после двух компиляций, зато позволяет выцеплять библиографию по ключевым словам и нумеровать не из большего списка
+%sortcites=false,
+%%sortcites=true,% сортировать номера затекстовых ссылок при цитировании (если в квадратных скобках несколько ссылок, то отображаться будут отсортированно, а не абы как)
+%doi=false,% Показывать или нет ссылки на DOI
+%isbn=false,% Показывать или нет ISBN
+%useauthor=true, %that's it! Если не ставить эту опцию, то во многих случаях будет использовано название вместо первого автора
+%%babel=hyphen,  %no-no! You would have 'и др.' for english papers
+%%babel=other,
+%firstinits=true, 
+%uniquename=false,
+%]{biblatex}
+%
+%\usepackage{totcount}
+%\usepackage{ifthen}
+%\newcounter{bibliosel}
+%\setcounter{bibliosel}{1}           % 0 --- встроенная реализация с загрузкой файла через движок bibtex8; 1 --- реализация пакетом biblatex через движок biber
+%
+%%%% Выбор реализации %%%
+%\ifthenelse{\equal{\thebibliosel}{0}}{%
+%	\input{biblio/predefined}  % Встроенная реализация с загрузкой файла через движок bibtex8
+%}{
+%	\input{biblatex}    % Реализация пакетом biblatex через движок bibers
+%	
+%}
